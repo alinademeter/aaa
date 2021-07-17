@@ -1,0 +1,91 @@
+body{
+	background-color: lightskyblue;
+}
+.menu{
+	background-color: #eee;
+	overflow: auto;
+	white-space: nowrap;
+
+}
+div.menu a:hover{
+background-color: #ffcccc;
+}
+div.menu a{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	margin: auto;
+	float: left;
+}
+.image{
+	position: relative;
+	max-width: 800px;/*Maximum width*/
+	margin: 0 auto;
+	float: left;
+}
+.content{
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0,0.5);
+	color: #f1f1f1;
+	width: 95%;
+	padding: 20px;
+
+}
+.latest{
+	text-align: center;
+
+}
+.stories{
+	padding: 20px;
+	text-align:justify;
+	text-decoration: none;
+	font-family: "Times New Roman",Times,serif;
+
+
+}
+.column{
+	float: left;
+	padding: 8px;
+    width: 350px;
+    height:400px;
+    text-align: justify;
+
+}
+.row: :after{
+	content: "";
+	clear: both;
+	display: table;
+	box-sizing: border-box;
+	text-align: justify;
+
+}
+.column > img{
+	width: 100px;
+	height:140px;
+	margin: auto;
+}
+/*
+@media screen and (max-width: 992px){
+	.column > img{
+    width: 100px;
+	height: 200px;
+	}
+}
+@media screen and (max-width: 600px){
+	.column > img{
+    width: 80px;
+	height: 150px;
+	}
+}
+
+*/
+
+.responsive{
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
